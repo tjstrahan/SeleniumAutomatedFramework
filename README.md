@@ -1,4 +1,4 @@
-# SeleniumAutomatedFramework
+# Selenium Automated Framework
 A framework built from scratch which uses Maven, Jenkins, Log4j, TestNG, Page object pattern and Extent reports to run Selenium test cases.
 
 
