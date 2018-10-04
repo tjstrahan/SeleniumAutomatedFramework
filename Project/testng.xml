@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+<!-- Telling testNg xml where listeners are set up needs to be done if you want to take screenshots on failure for example
+which is method within listeners interface -->
+<listeners>
+
+<listener class-name="Academy.listeners"/>
+<listener class-name="resources.ExtentReporterNG"></listener>
+
+</listeners>
+
+<!-- Wrapping each class in a test tag so that it will close the browser at the end of the test 
+this is an optimization rather than leaving browsers open all over the place-->
+  <test  name="Test title">
+    <classes>
+      <class name="Academy.validateTitle"/>
+      </classes>
+  </test> 
+  
+  <test  name="Test Home">
+    <classes>
+      <class name="Academy.HomePage"/>
+      </classes>
+  </test> 
+  
+  <test  name="Test Navbar">
+    <classes>
+      <class name="Academy.validateNavigationBar"/>
+      </classes>
+  </test> 
+  
+ 
+       
+    
+    
+  <!-- Test -->
+</suite> <!-- Suite -->
+
+
+

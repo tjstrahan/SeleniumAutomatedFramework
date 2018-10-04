@@ -1,0 +1,8 @@
+15:48:03.020 [main] INFO  resources.base - navigating to url
+15:48:09.222 [main] INFO  resources.base - Non Restrcited user
+15:48:09.222 [main] INFO  resources.base - Moving on to next iteration of user data
+15:48:10.622 [main] INFO  resources.base - navigating to url
+15:48:13.655 [main] INFO  resources.base - Restrcited user
+15:48:13.655 [main] INFO  resources.base - Moving on to next iteration of user data
+15:48:16.931 [main] INFO  resources.base - navigating to url
+15:48:20.219 [main] INFO  resources.base - Admin user
